@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random qoute</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/all.min.css"/>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="CSS/main.css"/>
+    
+</head>
+<body>
+    <div id="quotes" class="vh-100 m-auto d-flex flex-column">
+        <h1 class="text-center">Quote of the day</h1>
+        <h2 class="text-center">Get your message for today to start again</h2>
+        <button onclick="randomText()" class="btn btn-quote mx-auto">New Quote</button> 
+        <p id="randomQuote" class="text-center"></p>
+        <span id="authorName" class="text-center"></span> 
+
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
